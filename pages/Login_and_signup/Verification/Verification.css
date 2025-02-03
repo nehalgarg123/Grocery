@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.page4 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+
+}
+
+header {
+    height: 84px;
+    width: 100%;
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(240, 238, 240, 1);
+}
+
+header .EasyMart {
+    position: relative;
+    height: 32px;
+    Width: 134px;
+
+}
+
+.page4 .Login {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.page4 .Login section {
+    width: 418px;
+    height: 378px;
+    top: 164px;
+    position: relative;
+}
+
+.page4 .Login section .div-section1 {
+    width: 418px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.page4 .Login section .div-section1 .back-button {
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(240, 238, 240, 1);
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 1);
+
+
+}
+
+.page4 .Login section .div-section1 .back-button a img {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 24px;
+    width: 24px;
+}
+
+.page4 .Login section .div-section1 .verification-text {
+    width: 418px;
+    height: 48px;
+    margin-top: 24px;
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+.page4 .Login section .div-section2 {
+    width: 418px;
+    height: 226px;
+    margin-top: 32px;
+}
+
+.page4 .Login section .div-section2 .verification-code {
+    width: 418px;
+    height: 190px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(248, 247, 248, 1);
+    border-radius: 24px;
+    padding: 24px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+
+    background: rgba(252, 252, 252, 1);
+
+}
+
+.page4 .Login section .div-section2 .verification-code .code {
+    width: 370px;
+    height: 48px;
+    gap: 24px;
+
+}
+
+.verification-code .code .part1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(104, 96, 105, 1);
+}
+
+.verification-code .code .part2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: black;
+}
+
+.page4 .Login section .div-section2 .verification-code .div-digits {
+    width: 316px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+
+.verification-code .div-digits .digit {
+    height: 70px;
+    width: 67px;
+    display: flex;
+}
+
+.verification-code .div-digits .digit input {
+    height: 70px;
+    width: 67px;
+    border-radius: 16px;
+    padding-left: 5px;
+    border: 1px solid rgba(240, 238, 240, 1);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 46.4px;
+
+
+
+}
+
+
+.verification-code .div-digits .digit input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.verification-code .div-digits .digit input::placeholder {
+    color: rgba(156, 147, 157, 1);
+}
+
+.page4 .Login section .div-section2 .verification-code .div-confirm {
+
+    padding: 0;
+    gap: 8px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px) {
+    header {
+        height: 64px;
+        width: 100%;
+        position: absolute;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid rgba(240, 238, 240, 1);
+    }
+
+    header .EasyMart {
+        position: relative;
+        height: 28px;
+        Width: 117px;
+
+    }
+
+    .page4 .Login {
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 16px;
+        margin-right: 16px;
+
+    }
+
+    .page4 .Login section {
+        width: 343x;
+        height: 336px;
+        top: 140px;
+        position: relative;
+        margin-left: 16px;
+        margin-right: 16px;
+
+    }
+
+    .page4 .Login section .div-section1 {
+        width: 343px;
+        height: 104px;
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+    .page4 .Login section .div-section1 .back-button {
+        width: 48px;
+        height: 48px;
+        border: 1px solid rgba(240, 238, 240, 1);
+        border-radius: 32px;
+        background: rgba(255, 255, 255, 1);
+
+
+    }
+
+    .page4 .Login section .div-section1 .verification-text {
+        width: 343px;
+        height: 32px;
+        margin-top: 24px;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 600;
+    }
+
+    .page4 .Login section .div-section2 {
+        width: 343px;
+        height: 208px;
+        margin-top: 24px;
+
+    }
+
+    .page4 .Login section .div-section2 .verification-code {
+        width: 343px;
+        height: 174px;
+        margin-bottom: 16px;
+        border: 1px solid rgba(248, 247, 248, 1);
+        border-radius: 24px;
+        padding: 24px;
+        gap: 24px;
+        display: flex;
+        flex-direction: column;
+
+        background: rgba(252, 252, 252, 1);
+
+    }
+
+    .page4 .Login section .div-section2 .verification-code .code {
+        width: 295px;
+        height: 46px;
+        gap: 24px;
+
+
+    }
+
+    .verification-code .code .part1 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        color: rgba(104, 96, 105, 1);
+    }
+
+    .verification-code .code .part2 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        color: black;
+    }
+
+    .page4 .Login section .div-section2 .verification-code .div-digits {
+        width: 295px;
+        height: 56px;
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        justify-content: space-between;
+
+    }
+
+
+    .verification-code .div-digits .digit {
+        height: 56px;
+        width: 53.6px;
+        display: flex;
+
+    }
+
+    .verification-code .div-digits .digit input {
+        height: 56px;
+        width: 53.6px;
+        border-radius: 12.8px;
+        padding-left: 5px;
+        border: 0.8px solid rgba(240, 238, 240, 1);
+        text-align: center;
+        font-size: 25.6px;
+        font-weight: 600;
+        line-height: 37.12px;
+
+
+
+    }
+
+    .verification-code .div-digits .digit input::placeholder {
+        color: rgba(156, 147, 157, 1);
+    }
+
+    .page4 .Login section .div-section2 .verification-code .div-confirm {
+        width: 297px;
+        height: 18px;
+        padding: 0;
+        gap: 8px;
+        margin-top: 16px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+}

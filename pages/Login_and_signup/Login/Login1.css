@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.page3 {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+header {
+    height: 84px;
+    width: 100%;
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(210, 209, 210);
+}
+
+header .EasyMart {
+    position: relative;
+    height: 50px;
+    Width: 134px;
+
+
+}
+
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.Login section {
+
+    Width: 418px;
+    Height: 541px;
+    position: relative;
+    top: 164px;
+
+}
+
+.Login section .login-text {
+    Width: 418px;
+    Height: 48px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+
+}
+
+.Login section .login-form {
+    Width: 418px;
+    Height: 461px;
+    Gap: 16px;
+    margin-top: 32px;
+}
+
+.Login section .login-form .login-part1 {
+    Width: 418px;
+    Height: 274px;
+    border-radius: 24px;
+    Border: 1px;
+    padding: 24px;
+    border: 1px solid rgba(248, 247, 248, 1);
+    background: rgba(252, 252, 252, 1)
+}
+
+.Login section .login-form .login-part1 .phone-email {
+    Width: 370px;
+    Height: 44px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.login-part1 .phone-email .email {
+    Width: 118px;
+    Height: 44px;
+    border-radius: 12px;
+    border: 1px solid rgba(248, 247, 248, 1);
+    background: rgba(248, 247, 248, 1);
+    font-weight: 600;
+    font-size: 14px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+.login-part1 .phone-email .email i {
+    padding-top: 6px;
+}
+
+
+.login-part1 .phone-email .email:hover,
+.login-part1 .phone-email .Phone:hover {
+    background: rgba(254, 245, 253, 1);
+    color: #B6349A;
+    border-color: #B6349A;
+
+}
+
+.login-part1 .phone-email .Phone {
+    Width: 118px;
+    Height: 44px;
+    border-radius: 12px;
+    border: 1px solid rgba(248, 247, 248, 1);
+    background: rgba(248, 247, 248, 1);
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    cursor: pointer;
+
+}
+
+.login-part1 .phone-email .Phone i {
+    padding-top: 5px;
+}
+
+
+.login-part1 .email-box {
+    margin-top: 24px;
+    Width: 370px;
+    Height: 80px;
+}
+
+.login-part1 .email-box label {
+    font-size: 14px;
+    font-weight: 600;
+    height: 20px;
+    width: 370px;
+}
+
+.login-part1 .email-box input {
+    Width: 370px;
+    Height: 52px;
+    border-radius: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 8px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(240, 238, 240, 1);
+}
+
+
+
+.login-part1 .email-box input::placeholder {
+    letter-spacing: 0.1px;
+    color: rgba(157, 159, 161, 1);
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.login-part1 .Continue {
+
+    Width: 370px;
+    Height: 46px;
+    margin-top: 32px;
+    Padding: 12px 24px 12px 24px;
+    border-radius: 39px;
+    background: #B6349A;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding: 12px;
+    color: #FFFFFF;
+    gap: 8px;
+    cursor: pointer;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.login-part1 .Continue:hover {
+    background: #b6349ac0;
+}
+
+.Continue a {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.Login section .Or {
+    Width: 418px;
+    Height: 50px;
+    background: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(156, 147, 157, 1);
+
+}
+
+.Login section .Or legend {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+fieldset {
+    border: 1px solid rgb(243, 242, 242);
+    border-bottom-color: transparent;
+    box-sizing: border-box;
+    padding: 199px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(156, 147, 157, 1);
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+.page3 .Login section .login-part2 {
+    display: flex;
+    flex-direction: column;
+    Width: 418px;
+    Height: 120px;
+    Gap: 1x;
+    border: 1px solid rgba(248, 247, 248, 1);
+}
+
+.page3 .Login section .login-part2 .meta {
+    border: 1px solid rgba(248, 247, 248, 1);
+    Width: 418px;
+    Height: 52px;
+    border-radius: 24px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: rgba(248, 247, 248, 1);
+
+
+
+
+}
+
+.page3 .Login section .login-part2 .meta a {
+    color: #B6349A;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+
+.page3 .Login .login-part2 .Google {
+    border: 1px solid rgba(248, 247, 248, 1)s;
+    Width: 418px;
+    Height: 52px;
+    border-radius: 24px;
+    gap: 15px;
+    margin-top: 16px;
+    background: rgba(248, 247, 248, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: rgba(248, 247, 248, 1);
+
+}
+
+.page3 .Login .login-part2 .Google a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+@media (min-width: 375px) and (max-width:500px) {
+    header {
+        height: 64px;
+        width: 375px;
+        position: absolute;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid rgba(240, 238, 240, 1);
+    }
+
+    header .EasyMart {
+        position: relative;
+        height: 28px;
+        Width: 117px;
+
+    }
+
+    .Login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        Height: 517px;
+
+
+    }
+
+    .Login section {
+
+        Width: 343px;
+
+        position: relative;
+        top: 106px;
+        gap: 0px;
+
+    }
+
+    .Login section .login-text {
+        Width: 343px;
+        Height: 32px;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 48px;
+
+    }
+
+    .Login section .login-form {
+        Width: 343px;
+        Height: 461px;
+        Gap: 16px;
+        margin-top: 24px;
+    }
+
+    .Login section .login-form .login-part1 {
+        Width: 343px;
+        Height: 274px;
+        border-radius: 24px;
+        Border: 1px;
+        padding: 24px;
+        border: 1px solid rgba(248, 247, 248, 1);
+        background: rgba(252, 252, 252, 1)
+    }
+
+    .Login section .login-form .login-part1 .phone-email {
+        Width: 295px;
+        Height: 44px;
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    .login-part1 .phone-email .email {
+        Width: 118px;
+        Height: 44px;
+        border-radius: 12px;
+        border: 1px solid rgba(248, 247, 248, 1);
+        background: rgba(248, 247, 248, 1);
+        font-weight: 600;
+        font-size: 14px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+
+    }
+
+    .login-part1 .phone-email .email i {
+        padding-top: 6px;
+    }
+
+    .login-part1 .phone-email .email:hover,
+    .login-part1 .phone-email .Phone:hover {
+        background: rgba(254, 245, 253, 1);
+        color: #B6349A;
+        border-color: #B6349A;
+    }
+
+    .login-part1 .phone-email .Phone {
+        Width: 118px;
+        Height: 44px;
+        border-radius: 12px;
+        border: 1px solid rgba(248, 247, 248, 1);
+        background: rgba(248, 247, 248, 1);
+        font-weight: 600;
+        font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 12px;
+        cursor: pointer;
+
+    }
+
+    .login-part1 .phone-email .Phone i {
+        padding-top: 5px;
+    }
+
+    .login-part1 .email-box {
+        margin-top: 24px;
+        Width: 295px;
+        Height: 80px;
+    }
+
+    .login-part1 .email-box label {
+        font-size: 14px;
+        font-weight: 600;
+        height: 20px;
+        width: 295px;
+    }
+
+    .login-part1 .email-box input {
+        Width: 295px;
+        Height: 52px;
+        border-radius: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+        gap: 8px;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(240, 238, 240, 1);
+    }
+
+
+
+    .login-part1 .email-box input::placeholder {
+        letter-spacing: 0.1px;
+        color: rgba(157, 159, 161, 1);
+        line-height: 22px;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    .login-part1 .Continue {
+
+        Width: 295px;
+        Height: 46px;
+        margin-top: 32px;
+        Padding: 12px 24px 12px 24px;
+        border-radius: 39px;
+        background: #B6349A;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        padding: 12px;
+        color: #FFFFFF;
+        gap: 8px;
+        cursor: pointer;
+        margin-bottom: 24px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .login-part1 .Continue:hover {
+        background: #b6349ac0;
+    }
+
+    .Continue a {
+        color: #FFFFFF;
+        text-decoration: none;
+
+    }
+
+    .Login section .Or {
+        Width: 343px;
+        Height: 35px;
+        background: white;
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: none;
+        color: rgba(156, 147, 157, 1);
+
+    }
+
+    .Login section .Or legend {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    fieldset {
+        border: 1px solid rgb(243, 242, 242);
+        border-bottom-color: transparent;
+        box-sizing: border-box;
+        padding: 150px;
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: none;
+        color: rgba(156, 147, 157, 1);
+        border-right-color: transparent;
+        border-left-color: transparent;
+    }
+
+    .page3 .Login section .login-part2 {
+        display: flex;
+        flex-direction: column;
+        Width: 343px;
+        Height: 120px;
+        Gap: 1x;
+        border: 1px solid rgba(248, 247, 248, 1);
+    }
+
+    .page3 .Login section .login-part2 .meta {
+        border: 1px solid rgba(248, 247, 248, 1);
+        Width: 343px;
+        Height: 52px;
+        border-radius: 24px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background: rgba(248, 247, 248, 1);
+
+
+
+    }
+
+    .page3 .Login section .login-part2 .meta a {
+        color: #B6349A;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+
+
+    .page3 .Login .login-part2 .Google {
+        border: 1px solid rgba(248, 247, 248, 1)s;
+        Width: 343px;
+        Height: 52px;
+        border-radius: 24px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        gap: 10px;
+        margin-top: 16px;
+        background: rgba(248, 247, 248, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background: rgba(248, 247, 248, 1);
+
+    }
+
+    .page3 .Login .login-part2 .Google a {
+        color: #000000;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        text-decoration: none;
+    }
+}

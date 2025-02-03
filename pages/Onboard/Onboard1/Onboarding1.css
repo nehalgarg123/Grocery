@@ -1,0 +1,551 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.page1 {
+    height: auto;
+    width: auto;
+}
+
+.page1 .category {
+    margin-top: 100px;
+    height: 500px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.page1 .category .select-meals {
+    margin-left: 188px;
+    width: 500px;
+    height: auto;
+}
+
+.page1 .category .meals-image {
+    margin-right: 80px;
+    width: 500px;
+    height: 200px;
+    left: 860px;
+}
+
+.category .select-meals .text {
+    height: 51px;
+    width: 574px;
+}
+
+.category .select-meals .text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 51.2px;
+    color: #0d0c0d;
+}
+
+.select-meals .grid-images {
+    width: 693px;
+    height: 320px;
+    margin-top: 60px;
+}
+
+.grid-images .grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+    height: 316px;
+    margin-right: 119px;
+}
+
+.grid-images .grids .pictures {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 150px;
+    width: 131.5px;
+    border-radius: 24px;
+    padding: 16px;
+    background: #f8f8f8;
+}
+
+.grids .pictures .picture {
+    height: 44px;
+    width: 44px;
+    margin-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grids .pictures .image-text {
+    height: 22px;
+    width: 99.5px;
+    font-size: 14px;
+    margin-bottom: 6px;
+    line-height: 22px;
+    font-weight: 600px;
+    color: #0d0c0d;
+    margin-top: 12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meals-image .meals {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    width: 451.67px;
+    height: 407.37px;
+    top: 46.32px;
+    gap: 26px;
+    left: 24.17px;
+
+    margin-top: 46.32px;
+    margin-bottom: 46.31px;
+    margin-left: 24.16px;
+    margin-right: 24.17px;
+}
+
+.meals .food {
+    height: 190.37px;
+    width: 182.19px;
+    top: 46.32px;
+    left: 38.74px;
+}
+
+
+
+.grid-images .grids .pictures:hover {
+    border: 1px solid #b6349a;
+}
+
+
+.page1 .Continue {
+    width: 166px;
+    height: 48px;
+    top: 828px;
+    margin-top: 64px;
+    border-radius: 39px;
+    background: #b6349a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 80px;
+    gap: 8px;
+}
+
+
+@media only screen and (max-width: 1180px) {
+    .page1 .category {
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .page1 .category .select-meals {
+        margin-left: 20%;
+        margin-right: auto;
+        width: 450px;
+        height: 600px;
+
+    }
+
+    .page1 .category .meals-image {
+        display: none;
+    }
+
+    .category .select-meals .text {
+        height: 80;
+        width: 700px;
+        margin-top: 50px;
+    }
+
+    .select-meals .grid-images {
+        width: 80%;
+        height: 400px;
+        margin-top: 40px;
+
+    }
+
+    .grid-images .grids {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 16px;
+        width: 600px;
+        height: 300px;
+
+    }
+
+    .grid-images .grids .pictures {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 150px;
+        width: auto;
+        border-radius: 24px;
+        padding: 20px;
+        background: #f8f8f8;
+    }
+
+    .page1 .Continue {
+        width: 343px;
+        height: 48px;
+        top: 10px;
+        border-radius: 39px;
+        background: #b6349a;
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 80px;
+        gap: 8px;
+        position: relative;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+    .page1 .category {
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .page1 .category .select-meals {
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        height: 768px;
+
+    }
+
+    .page1 .category .meals-image {
+        display: none;
+    }
+
+    .category .select-meals .text {
+        height: 80;
+        width: 450px;
+        margin-top: 50px;
+    }
+
+    .select-meals .grid-images {
+        width: 80%;
+        height: 540px;
+        margin-top: 40px;
+
+    }
+
+    .grid-images .grids {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 16px;
+        width: 450px;
+        height: 450px;
+    }
+
+    .grid-images .grids .pictures {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        flex-direction: column;
+
+        height: 150px;
+        width: auto;
+        border-radius: 24px;
+        padding: 20px;
+        background: #f8f8f8;
+    }
+
+    .page1 .Continue {
+        width: 343px;
+        height: 48px;
+        top: 50px;
+        border-radius: 39px;
+        background: #b6349a;
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 80px;
+        gap: 8px;
+        position: relative;
+
+    }
+
+}
+
+
+@media only screen and (max-width:600px) {
+    .page1 .category {
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .page1 .category .select-meals {
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        height: 768px;
+
+    }
+
+    .page1 .category .meals-image {
+        display: none;
+    }
+
+    .category .select-meals .text {
+        height: 80;
+        width: 450px;
+        margin-top: 50px;
+    }
+
+    .select-meals .grid-images {
+        width: 80%;
+        height: 540px;
+        margin-top: 40px;
+
+    }
+
+    .grid-images .grids {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 16px;
+        width: 450px;
+        height: 450px;
+    }
+
+    .grid-images .grids .pictures {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        flex-direction: column;
+
+        height: 150px;
+        width: auto;
+        border-radius: 24px;
+        padding: 20px;
+        background: #f8f8f8;
+    }
+
+    .page1 .Continue {
+        width: 343px;
+        height: 48px;
+        top: 50px;
+        border-radius: 39px;
+        background: #b6349a;
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 80px;
+        gap: 8px;
+        position: relative;
+    }
+
+}
+
+/*
+@media only screen and (max-width:570px) {
+    .page1 .category {
+        height: 500px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        max-width: 450px;
+    }
+
+    .page1 .category .select-meals {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 600px;
+    }
+
+    .page1 .category .meals-image {
+        display: none;
+    }
+
+    .category .select-meals .text {
+        height: auto;
+        width: 100%;
+        margin: 0%;
+    }
+
+    .select-meals .grid-images {
+        width: 80%;
+        height: 728px;
+        margin-top: 20%;
+    }
+
+    .grid-images .grids {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 16px;
+        width: 80%;
+        height: 728px;
+    }
+
+    .page1 .Continue {
+        width: 343px;
+        height: 48px;
+        top: 828px;
+        margin-top: 64px;
+        border-radius: 39px;
+        background: #b6349a;
+        line-height: 24px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .page1 .Continue .Continue-text {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 24px;
+        width: 50%;
+        gap: 2px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .page1 .Continue .Continue-text .text {
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 2px;
+        padding-bottom: 15px;
+    }
+
+    .Continue a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+*/
+
+@media only screen and (max-width:570px) {
+    .page1 .category {
+        height: 500px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        max-width: 450px;
+    }
+
+    .page1 .category .select-meals {
+        margin: 0;
+        width: 343px;
+        height: 768px;
+
+    }
+
+    .page1 .category .meals-image {
+        display: none;
+    }
+
+    .category .select-meals .text {
+        height: auto;
+        width: 100%;
+        margin: 0%;
+    }
+
+    .select-meals .grid-images {
+        margin: 0%;
+        width: 343px;
+        height: 648px;
+        margin-top: 16px;
+
+    }
+
+    .grid-images .grids {
+        margin: 0%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 16px;
+        width: 343px;
+        height: 640px;
+        position: absolute;
+    }
+
+
+    .grid-images .grids .pictures {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 150px;
+        width: auto;
+        border-radius: 24px;
+        padding: 16px;
+        background: #f8f8f8;
+    }
+
+    .grids .pictures .picture {
+        height: 44px;
+        width: 44px;
+        margin-right: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grids .pictures .image-text {
+        height: 22px;
+        width: 99.5px;
+        font-size: 14px;
+        margin-bottom: 6px;
+        line-height: 22px;
+        font-weight: 600px;
+        color: #0d0c0d;
+        margin-top: 12px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .page1 .Continue {
+        width: 343px;
+        height: 48px;
+        top: 100px;
+        border-radius: 39px;
+        background: #b6349a;
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 80px;
+        gap: 8px;
+        position: relative;
+    }
+
+}
