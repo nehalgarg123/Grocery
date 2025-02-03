@@ -23,8 +23,8 @@ header {
     width: 100%;
     position: absolute;
     display: inline-flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: row;
     border-bottom: 1px solid rgb(210, 209, 210);
 }
 
@@ -32,6 +32,7 @@ header .EasyMart {
     margin-left: 80px;
     width: 134px;
     height: 32px;
+    margin-left: 80px;
 }
 
 header .location {
@@ -46,44 +47,71 @@ header .location {
     font-size: 12.5px;
     font-weight: 500;
     letter-spacing: -0.1px;
+    margin-right: 133px;
 
 }
 
 header .searchbar {
     width: 458px;
     height: 64px;
-    border: 1px solid rgb(237, 237, 237);
     top: 10px;
+    left: 491px;
     border-radius: 32px;
-    margin: 16px 20px;
+    border: 1px;
+    opacity: 0px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    gap: 8px
+    border: 1px solid rgb(239, 239, 239);
 }
 
-header .searchbar .search-icon {
-    height: 32px;
-    width: 32px;
-    border-radius: 1066.67px;
-    padding: 6px;
-    background: rgba(254, 245, 253, 1);
+header .searchbar:hover {
+    box-shadow: 0px 0px 0px 4px rgba(204, 53, 171, 0.12);
     cursor: pointer;
 }
 
-header .searchbar .search-text input {
+header .searchbar .search-icon {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    gap: 0px;
+    border-radius: 1066.67px;
+    opacity: 0px;
+    margin-left: 16px;
+    margin-right: 8px;
+    background: rgba(254, 245, 253, 1);
+
+
+}
+
+header .searchbar .search-icon image {
+    width: 20px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+header .searchbar .search-text {
     width: 386px;
     height: 24px;
+    opacity: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(62, 59, 63, 1);
+
+}
+
+header .searchbar .search-text input {
     border: none;
 }
 
-header .searchbar .search-text input::placeholder {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 23.8px;
-    color: rgba(62, 59, 63, 1);
-
+input:focus {
+    outline: none;
 }
 
 header .Cart {
@@ -108,18 +136,39 @@ header .Cart .Cart-icon {
     width: 60px;
     border: 1px solid white;
     border-radius: 32px;
-    padding-top: 7px;
-    padding-left: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background: white;
-    font-size: 13px;
+    font-size: 14px;
+    gap: 6px;
     color: rgba(182, 52, 154, 1);
 
 
 }
 
+header .Cart .Cart-icon .cart-icon-text {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
 header .Cart .Cart-text {
     width: 29px;
     height: 19px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.9px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 
 }
 
@@ -142,36 +191,47 @@ header .Login {
 }
 
 section .block {
-    width: 1260px;
+    width: 1256px;
     height: 512px;
     position: relative;
-    top: 130px;
+    top: 116px;
     left: 150px;
+    gap: 16px;
     border-radius: 24px;
-    gap: 10px;
     display: flex;
     flex-direction: column;
+
 }
 
-.marquee {
-
+section .block .block1 {
+    width: 1260px;
+    height: 248px;
+    gap: 16px;
+    opacity: 0px;
     display: flex;
     flex-direction: row;
-    background: #ffffff;
-    margin: 0 auto;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 1260px;
-
 }
 
-.marquee span {
-    display: inline;
-    position: relative;
+section .block .block1 span {
     width: auto;
+    height: auto;
+
 }
 
+section .block .block2 span {
+    width: auto;
+    height: auto;
 
+}
+
+section .block .block2 {
+    width: 1260px;
+    height: 248px;
+    gap: 16px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+}
 
 .items {
     width: 1256px;
@@ -1163,7 +1223,7 @@ section .block {
     gap: 0px;
     border-radius: 32px;
     opacity: 0px;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 0, 0);
     margin-left: auto;
     margin-right: auto;
     background: #ffffff;
@@ -1303,17 +1363,38 @@ section .block {
     border-radius: 30px;
 }
 
-order-grocery .order-block .oranges {
+.weekly-sold .order-block {
+    margin-top: 10px;
+    width: 1260px;
+    height:372px;
+    padding: 40px;
+    border-radius: 24px;
+    opacity: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    justify-content: left;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.order-block .oranges {
     width: 681.6px;
-    height: 332.32px;
-    gap: 24px;
+    height: 412.32px;
+    gap: 44px;
     opacity: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.order-grocery .order-block .oranges .fruit {
+.order-block .oranges .fruit {
     width: 211px;
     height: 332px;
     gap: 5px;
@@ -1322,13 +1403,13 @@ order-grocery .order-block .oranges {
 
 }
 
-.order-grocery .order-block .oranges .fruit .fruit-image {
+.order-block .oranges .fruit .fruit-image {
     width: 211px;
     height: 211px;
     border-radius: 32px;
 }
 
-.order-grocery .order-block .oranges .fruit .fruit-prices {
+.order-block .oranges .fruit .fruit-prices {
     width: 211px;
     height: 105px;
     gap: 16px;
@@ -1337,7 +1418,7 @@ order-grocery .order-block .oranges {
 
 }
 
-.order-grocery .order-block .oranges .fruit .fruit-prices .first-row {
+.order-block .oranges .fruit .fruit-prices .first-row {
     width: 211px;
     height: 24px;
     font-size: 16px;
@@ -1348,7 +1429,7 @@ order-grocery .order-block .oranges {
     text-decoration-skip-ink: none;
 }
 
-.order-grocery .order-block .oranges .fruit .fruit-prices .second-row {
+.order-block .oranges .fruit .fruit-prices .second-row {
     width: 211px;
     height: 20px;
     font-size: 14px;
@@ -1359,7 +1440,7 @@ order-grocery .order-block .oranges {
     text-decoration-skip-ink: none;
 }
 
-.order-grocery .order-block .oranges .fruit .fruit-prices .third-row {
+.order-block .oranges .fruit .fruit-prices .third-row {
     width: 211px;
     height: 32px;
     display: flex;
@@ -1368,7 +1449,7 @@ order-grocery .order-block .oranges {
     opacity: 0px;
 }
 
-.order-grocery .order-block .oranges .fruit .fruit-prices .third-row .span1 {
+.order-block .oranges .fruit .fruit-prices .third-row .span1 {
     width: 62px;
     height: 32px;
     gap: 0px;
@@ -1382,7 +1463,7 @@ order-grocery .order-block .oranges {
     color: rgba(13, 12, 13, 1)
 }
 
-.order-grocery .order-block .oranges .fruit .fruit-prices .third-row .span2 {
+.order-block .oranges .fruit .fruit-prices .third-row .span2 {
     width: 49px;
     height: 22px;
     gap: 0px;
@@ -1396,7 +1477,7 @@ order-grocery .order-block .oranges {
     color: rgba(0, 0, 0, 0.6);
 }
 
-.order-grocery .order-block .oranges .fruit .fruit-prices .four-row {
+.order-block .oranges .fruit .fruit-prices .four-row {
     width: auto;
     height: 24px;
     display: flex;
@@ -1404,7 +1485,7 @@ order-grocery .order-block .oranges {
     opacity: 0px;
 }
 
-.order-grocery .order-block .oranges .fruit .fruit-prices .four-row .pink {
+.order-block .oranges .fruit .fruit-prices .four-row .pink {
     width: auto;
     height: auto;
     opacity: 0px;
@@ -1415,7 +1496,7 @@ order-grocery .order-block .oranges {
     color: rgba(182, 52, 154, 1);
 }
 
-.order-grocery .order-block .oranges .fruit .fruit-prices .four-row .black {
+.order-block .oranges .fruit .fruit-prices .four-row .black {
     width: auto;
     height: auto;
     opacity: 0px;
@@ -1423,4 +1504,43 @@ order-grocery .order-block .oranges {
     font-size: 14px;
     font-weight: 500;
     color: black;
+}
+
+.order-block .order-now {
+    width: 414px;
+    height: 224px;
+    gap: 16px;
+    opacity: 0px;
+    margin-bottom: 148px;
+}
+
+.order-block .order-now .order-text {
+    width: 414px;
+    height: 70px;
+    gap: 2px;
+    opacity: 0px;
+}
+
+.order-block .order-now .order-text .order-text1 {
+    width: 414px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: rgba(182, 52, 154, 1);
+}
+
+.order-block .order-now .order-text .order-text2 {
+    width: 414px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.1px;
+    color: rgb(0, 0, 0);
 }
